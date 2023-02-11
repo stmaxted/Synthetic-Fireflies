@@ -1,0 +1,18 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid eb7890aa-4169-47c5-87d4-a9440f7befdd)
+
+  (paper "A3")
+
+  (title_block
+    (title "Top Level")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
