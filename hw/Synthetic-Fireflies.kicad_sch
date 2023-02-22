@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid eb7890aa-4169-47c5-87d4-a9440f7befdd)
 
@@ -11,6 +11,40 @@
   (lib_symbols
   )
 
+
+  (sheet (at 25.4 129.54) (size 41.91 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 081f7972-b74b-4fa8-989f-34e24ce3ee90)
+    (property "Sheetname" "Power" (at 25.4 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 25.4 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Synthetic-Fireflies"
+        (path "/eb7890aa-4169-47c5-87d4-a9440f7befdd" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 101.6 129.54) (size 41.91 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 755a4086-f15e-4201-9284-9c5a0b1f72be)
+    (property "Sheetname" "MCU" (at 101.6 128.8284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 101.6 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Synthetic-Fireflies"
+        (path "/eb7890aa-4169-47c5-87d4-a9440f7befdd" (page "3"))
+      )
+    )
+  )
 
   (sheet_instances
     (path "/" (page "1"))
